@@ -6,4 +6,5 @@ def prime?(n)
     true
     break if n % i == 0
     false
+  end 
 end
