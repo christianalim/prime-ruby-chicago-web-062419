@@ -5,5 +5,5 @@ def prime?(n)
   array.each do |i|
     true
     break if n % i == 0
-    false  
+    false
 end
