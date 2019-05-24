@@ -1,11 +1,11 @@
 def prime?(n)
   root = Math.sqrt(n)
-  array = []
-  array.push(2..root)
+  array = (1..root).to_a
   puts array
   if n <= 0
     false
-  if n == 1 || n == 2 || n == 3
+  elsif n == 1 || n == 2 || n == 3
     true
+  end
 
 end
