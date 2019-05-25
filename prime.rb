@@ -11,7 +11,8 @@ def prime?(n)
         return false
         i += 1
       end
-    return true
+      return true
+      i += 1
     end
   end
 end
