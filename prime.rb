@@ -3,5 +3,5 @@ def prime?(num)
     return false
   end
   root = Math.sqrt(num)
-  
+
 end
