@@ -3,9 +3,10 @@ def prime?(num)
     return false
   end
   root = Math.sqrt(num)
-  for i in (2..root) do
-    false if root % i == 0
-
+  (2..root).each do
+    if root % i == 0 && i < root
+      return false
+    end
   end
   true
 end
