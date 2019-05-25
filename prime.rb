@@ -7,10 +7,10 @@ def prime?(n)
     i = 2
     array = (2..n).to_a
     for i in array
-      if n % 1 == 0
+      if n % i == 0
         return false
       end
-    true
+    return true
     end
   end
 end
