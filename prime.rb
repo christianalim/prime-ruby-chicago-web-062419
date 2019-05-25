@@ -8,8 +8,8 @@ def prime?(n)
   end
   if n == 2 || n == 3 || n == 1
     true
-  end 
-  
+  end
+
   while i < root do
     if root % i == 0
       false
