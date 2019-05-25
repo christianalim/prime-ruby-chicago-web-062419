@@ -5,9 +5,11 @@ def prime?(n)
   elsif n < 2
     false
   else
-    (2..n).each do |i|
+    i = 2
+    while i < n do
       if n % i == 0
         return false
+        i += 1
       end
     return true
     end
