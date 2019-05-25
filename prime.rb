@@ -4,8 +4,8 @@ def prime?(num)
   end
   root = Math.sqrt(num)
   for i in (2..root) do
-    if root % i == 0
-      return false
+    false if root % i == 0
+      
   end
   true
 end
