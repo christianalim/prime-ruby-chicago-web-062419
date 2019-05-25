@@ -5,7 +5,7 @@ def prime?(n)
     false
   else
     i = 2
-    array = (2..n).to_a
+    array = (1..n).to_a
     array.each do |i|
       break if n % i == 0
       false
