@@ -2,13 +2,10 @@ def prime?(n)
   if n < 2
     false
   else
-    i = 2
-    for i in 2..n-1
+    (2..n).each do |i|
       if n % i == 0
         return false
-      else
-        return true
       end
-    end
   end
+  true
 end
