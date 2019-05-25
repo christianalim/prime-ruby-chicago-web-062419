@@ -8,5 +8,5 @@ def prime?(n)
       end
     end
     true
-  end  
+  end
 end
