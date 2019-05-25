@@ -10,6 +10,5 @@ def prime?(n)
       break if n % i == 0
       false
     end
-    true
   end
 end
