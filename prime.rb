@@ -5,7 +5,7 @@ def prime?(n)
     false
   else
     i = 2
-    array = (2..n).to_a
+    array = (2.. n - 1 ).to_a
     for i in array
       if n % i == 0
         return false
