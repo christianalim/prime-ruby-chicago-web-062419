@@ -7,5 +7,6 @@ def prime?(num)
     if root % i == 0 && i < root
       return false
     end
+    true
   end
 end
