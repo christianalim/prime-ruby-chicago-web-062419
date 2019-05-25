@@ -1,10 +1,12 @@
 def prime?(n)
   root = Math.sqrt(n)
-  array = (1..root).to_a
-
-  array.each do |i|
-    true
-    break if n % i == 0
-    false
+  array = (2..root).to_a
+  i = 2
+  while i < root do
+    if root % i == 0
+      false
+    else
+      true
   end
+    
 end
