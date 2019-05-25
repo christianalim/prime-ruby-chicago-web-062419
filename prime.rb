@@ -6,7 +6,7 @@ def prime?(n)
   if n <= 1
     false
   end
-  if n == 2 || n == 3 || n == 1
+  if n == 2
     true
   end
 
@@ -17,5 +17,4 @@ def prime?(n)
       true
     end
   end
-
 end
