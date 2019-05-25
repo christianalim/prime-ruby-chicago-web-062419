@@ -10,9 +10,10 @@ def prime?(n)
       if n % i == 0
         return false
         i += 1
+      else
+        return true
+        i += 1
       end
-      return true
-      i += 1
     end
   end
 end
