@@ -6,9 +6,10 @@ def prime?(n)
   else
     i = 2
     array = (2..n).to_a
-    array.each do |i|
-      break if n % i == 0
-      false
+    for i in array
+      if n % 1 == 0
+        return false
+      end
     end
   end
 end
