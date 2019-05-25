@@ -1,4 +1,8 @@
 def prime?(n)
+  if n == 2
+    true
+  end 
+  
   if n < 2
     false
   else
